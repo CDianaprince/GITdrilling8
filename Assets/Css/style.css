@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;flex-direction: column;
+    align-items: center;
+}
+
+#b1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    background-image: url(../img/teclado.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: 100%;
+
+   
+}
+
+#b1 a{
+    text-decoration: none;
+    color: black;
+    border: solid;
+    padding: 5%;
+    margin-left: 15%;
+   }
+
+#b1 h1{
+    padding: 10%;
+}
+
+
+#b2 div{
+    text-align: center;
+    padding-top: 85%;
+}   
